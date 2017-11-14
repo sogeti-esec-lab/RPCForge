@@ -1,0 +1,10 @@
+TODO:
+    - Parse IDL file
+    - Rethink the NDR generation:
+        * Move NDR generation implementation out of Method class
+        * Rework the alignment code
+    - Handle NDR generation for:
+        * Conformant array in structs
+        * Multiple pointers in struct (deferred representation)
+        * Structure having circular dependence
+    - Work on RpcView Decompiler (handle more types and debug crashs)
